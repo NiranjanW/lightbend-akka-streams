@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0mC:\scala\project\LTS-P-lightbend-akka-streams-for-scala-professional-v1\exercises\exercises\src\test\scala\com\lightbend\akkassembly\FactoryTest.scala:19:35: not enough arguments for method orderCars: (qty: Int, upgradeShop: com.lightbend.akkassembly.UpgradeShop)scala.concurrent.Future[Seq[com.lightbend.akkassembly.Car]].[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter upgradeShop.[0m
+[0m[[0m[31merror[0m] [0m[0m      val cars = factory.orderCars(12).futureValue[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

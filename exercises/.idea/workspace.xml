@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="999481b5-f508-40a2-bef0-6a65be7ff926" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1iKOXt0rTQZQobeneMGvuoDd3xG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\scala\project\LTS-P-lightbend-akka-streams-for-scala-professional-v1\exercises" />
+    </key>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="base" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="base [file:/C:/scala/project/LTS-P-lightbend-akka-streams-for-scala-professional-v1/exercises/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="common [file:/C:/scala/project/LTS-P-lightbend-akka-streams-for-scala-professional-v1/exercises/]" />
+                <option name="path" value="$PROJECT_DIR$/common" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="exercises [file:/C:/scala/project/LTS-P-lightbend-akka-streams-for-scala-professional-v1/exercises/]" />
+                <option name="path" value="$PROJECT_DIR$/exercises" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="base-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="19219828425110" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1192226562" />
+        <entry key="$PROJECT_DIR$/project/AdditionalSettings.scala" value="1244036864" />
+        <entry key="$PROJECT_DIR$/project/CommonSettings.scala" value="3581530584" />
+        <entry key="$PROJECT_DIR$/project/CompileOptions.scala" value="1560646443" />
+        <entry key="$PROJECT_DIR$/project/Dependencies.scala" value="1179899796" />
+        <entry key="$PROJECT_DIR$/project/Man.scala" value="4220285629" />
+        <entry key="$PROJECT_DIR$/project/Navigation.scala" value="3706378638" />
+        <entry key="$PROJECT_DIR$/project/SavedStates.scala" value="3567903481" />
+        <entry key="$PROJECT_DIR$/project/ShellPrompt.scala" value="1612609151" />
+        <entry key="$PROJECT_DIR$/project/StudentKeys.scala" value="1318986973" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="3720855374" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../learning/LAS-P-lightbend-akka-for-scala-professional-v1/LAS-P-lightbend-akka-for-scala-professional-v1" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../projects/saf-174-inv-turns-sku-counts-2" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../projects/saf-23-fy-categ-origin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../projects/saf-csv-exporter" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../projects/saf-net-income-gross-margin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../projects/saf-roll13-exporter" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../projects/saf-roll13-store-exporter" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="999481b5-f508-40a2-bef0-6a65be7ff926" name="Default Changelist" comment="" />
+      <created>1601652859811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601652859811</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="520" key="com.intellij.ide.util.TipDialog" timestamp="1601727200072">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="623" y="520" key="com.intellij.ide.util.TipDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1601727200072" />
+    <state x="589" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1601729164573">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="589" y="317" width="672" height="678" key="search.everywhere.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1601729164573" />
+  </component>
+</project>

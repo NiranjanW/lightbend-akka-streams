@@ -1,0 +1,8 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mQualityAssuranceTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minspect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should reject cars with no Color[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should reject cars with no Engine[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should reject cars with no Wheels[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should accept cars that are complete *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.AssertionError: assertion failed: expected class akka.stream.testkit.TestSubscriber$OnNext, found class akka.stream.testkit.TestSubscriber$OnComplete$ (OnComplete)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.assert(Predef.scala:282)[0m[0m

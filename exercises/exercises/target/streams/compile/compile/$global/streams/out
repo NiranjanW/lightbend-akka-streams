@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mC:\scala\project\LTS-P-lightbend-akka-streams-for-scala-professional-v1\exercises\exercises\src\main\scala\com\lightbend\akkassembly\Factory.scala:19:45: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : upgradeShop.installUpgrades.Repr[com.lightbend.akkassembly.UnfinishedCar][0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  akka.stream.scaladsl.Flow[com.lightbend.akkassembly.UnfinishedCar,com.lightbend.akkassembly.UnfinishedCar,akka.NotUsed][0m
+[0m[[0m[31merror[0m] [0m[0m required: akka.stream.Graph[akka.stream.FlowShape[com.lightbend.akkassembly.Car,?],?][0m
+[0m[[0m[31merror[0m] [0m[0m      .via(upgradeShop.installUpgrades.named("install-upgrade-stage"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

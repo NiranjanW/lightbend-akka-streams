@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.lightbend.training"
+		module="exercises_2.13"
+		revision="1.0.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, javaagent"
+		date="20201002113443"/>
+	<dependencies>
+		<module organisation="com.lightbend.training" name="common_2.13">
+			<revision name="1.0.0" status="integration" pubdate="20201002113442" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile" position="1">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="com.lightbend.training" name="exercises_2.13" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-prometheus-httpserver">
+			<revision name="2.13.2" status="release" pubdate="20200207211039" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="no" details="" size="3066" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-prometheus-httpserver\ivy-2.13.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-prometheus-httpserver/2.13.2/cinnamon-prometheus-httpserver-2.13.2.pom"/>
+				<caller organisation="com.lightbend.training" name="exercises_2.13" conf="compile, runtime" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="1.0.0"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="cinnamon-prometheus-httpserver" type="jar" ext="jar" status="no" details="" size="3369" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-prometheus-httpserver\jars\cinnamon-prometheus-httpserver-2.13.2.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-prometheus-httpserver/2.13.2/cinnamon-prometheus-httpserver-2.13.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.prometheus" name="simpleclient_httpserver">
+			<revision name="0.8.0" status="release" pubdate="20191023112504" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4234" time="0" location="C:\Users\itnxw\.ivy2\cache\io.prometheus\simpleclient_httpserver\ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/prometheus/simpleclient_httpserver/0.8.0/simpleclient_httpserver-0.8.0.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-prometheus-httpserver" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="2.13.2"/>
+				<artifacts>
+					<artifact name="simpleclient_httpserver" type="bundle" ext="jar" status="no" details="" size="10055" time="0" location="C:\Users\itnxw\.ivy2\cache\io.prometheus\simpleclient_httpserver\bundles\simpleclient_httpserver-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/prometheus/simpleclient_httpserver/0.8.0/simpleclient_httpserver-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.prometheus" name="simpleclient_common">
+			<revision name="0.8.0" status="release" pubdate="20191023112342" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3967" time="0" location="C:\Users\itnxw\.ivy2\cache\io.prometheus\simpleclient_common\ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.8.0/simpleclient_common-0.8.0.pom"/>
+				<caller organisation="io.prometheus" name="simpleclient_httpserver" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="simpleclient_common" type="bundle" ext="jar" status="no" details="" size="5840" time="0" location="C:\Users\itnxw\.ivy2\cache\io.prometheus\simpleclient_common\bundles\simpleclient_common-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.8.0/simpleclient_common-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-prometheus">
+			<revision name="2.13.2" status="release" pubdate="20200207210653" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="20">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="no" details="" size="3316" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-prometheus\ivy-2.13.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-prometheus/2.13.2/cinnamon-prometheus-2.13.2.pom"/>
+				<caller organisation="com.lightbend.training" name="exercises_2.13" conf="compile, runtime" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="1.0.0"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="1.0.0"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-prometheus-httpserver" conf="default, compile, runtime, master" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="2.13.2"/>
+				<artifacts>
+					<artifact name="cinnamon-prometheus" type="jar" ext="jar" status="no" details="" size="41791" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-prometheus\jars\cinnamon-prometheus-2.13.2.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-prometheus/2.13.2/cinnamon-prometheus-2.13.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.prometheus" name="simpleclient">
+			<revision name="0.8.0" status="release" pubdate="20191023112326" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3802" time="0" location="C:\Users\itnxw\.ivy2\cache\io.prometheus\simpleclient\ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/prometheus/simpleclient/0.8.0/simpleclient-0.8.0.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-prometheus" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="2.13.2"/>
+				<caller organisation="io.prometheus" name="simpleclient_common" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="io.prometheus" name="simpleclient_httpserver" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="simpleclient" type="bundle" ext="jar" status="no" details="" size="59477" time="0" location="C:\Users\itnxw\.ivy2\cache\io.prometheus\simpleclient\bundles\simpleclient-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/prometheus/simpleclient/0.8.0/simpleclient-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-akka-stream_2.13">
+			<revision name="2.13.2" status="release" pubdate="20200207211722" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="no" details="" size="3488" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-akka-stream_2.13\ivy-2.13.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-akka-stream_2.13/2.13.2/cinnamon-akka-stream_2.13-2.13.2.pom"/>
+				<caller organisation="com.lightbend.training" name="exercises_2.13" conf="compile, runtime" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="1.0.0"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="cinnamon-akka-stream_2.13" type="jar" ext="jar" status="no" details="" size="163026" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-akka-stream_2.13\jars\cinnamon-akka-stream_2.13-2.13.2.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-akka-stream_2.13/2.13.2/cinnamon-akka-stream_2.13-2.13.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-akka_2.13">
+			<revision name="2.13.2" status="release" pubdate="20200207211453" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="no" details="" size="4805" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-akka_2.13\ivy-2.13.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-akka_2.13/2.13.2/cinnamon-akka_2.13-2.13.2.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-akka-stream_2.13" conf="default, compile, runtime, master" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="2.13.2"/>
+				<artifacts>
+					<artifact name="cinnamon-akka_2.13" type="jar" ext="jar" status="no" details="" size="263714" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-akka_2.13\jars\cinnamon-akka_2.13-2.13.2.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-akka_2.13/2.13.2/cinnamon-akka_2.13-2.13.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-scala_2.13">
+			<revision name="2.13.2" status="release" pubdate="20200207211244" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="no" details="" size="3313" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-scala_2.13\ivy-2.13.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-scala_2.13/2.13.2/cinnamon-scala_2.13-2.13.2.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-akka_2.13" conf="compile, runtime" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="2.13.2"/>
+				<artifacts>
+					<artifact name="cinnamon-scala_2.13" type="jar" ext="jar" status="no" details="" size="34358" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-scala_2.13\jars\cinnamon-scala_2.13-2.13.2.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-scala_2.13/2.13.2/cinnamon-scala_2.13-2.13.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-core_2.13">
+			<revision name="2.13.2" status="release" pubdate="20200207210622" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="no" details="" size="3016" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-core_2.13\ivy-2.13.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-core_2.13/2.13.2/cinnamon-core_2.13-2.13.2.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-scala_2.13" conf="compile, runtime" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="2.13.2"/>
+				<artifacts>
+					<artifact name="cinnamon-core_2.13" type="jar" ext="jar" status="no" details="" size="94474" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-core_2.13\jars\cinnamon-core_2.13-2.13.2.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-core_2.13/2.13.2/cinnamon-core_2.13-2.13.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-java">
+			<revision name="2.13.2" status="release" pubdate="20200207211222" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="no" details="" size="3293" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-java\ivy-2.13.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-java/2.13.2/cinnamon-java-2.13.2.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-akka_2.13" conf="compile, runtime" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="2.13.2"/>
+				<artifacts>
+					<artifact name="cinnamon-java" type="jar" ext="jar" status="no" details="" size="20124" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-java\jars\cinnamon-java-2.13.2.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-java/2.13.2/cinnamon-java-2.13.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-core-java">
+			<revision name="2.13.2" status="release" pubdate="20200207210518" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="no" details="" size="3012" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-core-java\ivy-2.13.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-core-java/2.13.2/cinnamon-core-java-2.13.2.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-java" conf="compile, runtime" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="2.13.2"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-prometheus" conf="default, compile, runtime, master" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="2.13.2"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-core_2.13" conf="compile, runtime" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="2.13.2"/>
+				<artifacts>
+					<artifact name="cinnamon-core-java" type="jar" ext="jar" status="no" details="" size="98403" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-core-java\jars\cinnamon-core-java-2.13.2.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-core-java/2.13.2/cinnamon-core-java-2.13.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.cinnamon" name="cinnamon-common">
+			<revision name="2.13.2" status="release" pubdate="20200207210440" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="no" details="" size="2983" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-common\ivy-2.13.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-common/2.13.2/cinnamon-common-2.13.2.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-core-java" conf="compile, runtime" rev="2.13.2" rev-constraint-default="2.13.2" rev-constraint-dynamic="2.13.2" callerrev="2.13.2"/>
+				<artifacts>
+					<artifact name="cinnamon-common" type="jar" ext="jar" status="no" details="" size="36771" time="0" location="C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-common\jars\cinnamon-common-2.13.2.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/pass/WB2nP6Zg4E54EkkRJ2nYAInONyi6ZvCKmWKHAo-6Kc9o-KGs/commercial-releases/com/lightbend/cinnamon/cinnamon-common/2.13.2/cinnamon-common-2.13.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream-testkit_2.13">
+			<revision name="2.6.3" status="release" pubdate="20200128073341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3779" time="0" location="C:\Users\itnxw\.ivy2\cache\com.typesafe.akka\akka-stream-testkit_2.13\ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.13/2.6.3/akka-stream-testkit_2.13-2.6.3.pom"/>
+				<caller organisation="com.lightbend.training" name="exercises_2.13" conf="compile, runtime" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.0.0"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="akka-stream-testkit_2.13" type="jar" ext="jar" status="no" details="" size="124560" time="0" location="C:\Users\itnxw\.ivy2\cache\com.typesafe.akka\akka-stream-testkit_2.13\jars\akka-stream-testkit_2.13-2.6.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.13/2.6.3/akka-stream-testkit_2.13-2.6.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream_2.13">
+			<revision name="2.6.3" status="release" pubdate="20200128073246" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="6">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3840" time="0" location="C:\Users\itnxw\.ivy2\cache\com.typesafe.akka\akka-stream_2.13\ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.3/akka-stream_2.13-2.6.3.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-testkit_2.13" conf="default, compile, runtime, master" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="2.6.3"/>
+				<caller organisation="com.lightbend.training" name="exercises_2.13" conf="compile, runtime" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.0.0"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="akka-stream_2.13" type="jar" ext="jar" status="no" details="" size="4628750" time="0" location="C:\Users\itnxw\.ivy2\cache\com.typesafe.akka\akka-stream_2.13\jars\akka-stream_2.13-2.6.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.3/akka-stream_2.13-2.6.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.13">
+			<revision name="0.4.1" status="release" pubdate="20191114174535" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3757" time="0" location="C:\Users\itnxw\.ivy2\cache\com.typesafe\ssl-config-core_2.13\ivy-0.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.13" conf="default, compile, runtime, master" rev="0.4.1" rev-constraint-default="0.4.1" rev-constraint-dynamic="0.4.1" callerrev="2.6.3"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.13" type="bundle" ext="jar" status="no" details="" size="302642" time="0" location="C:\Users\itnxw\.ivy2\cache\com.typesafe\ssl-config-core_2.13\bundles\ssl-config-core_2.13-0.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.13">
+			<revision name="1.1.2" status="release" pubdate="20190607183535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2962" time="0" location="C:\Users\itnxw\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.13\ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.pom"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.13" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.4.1"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.13" type="bundle" ext="jar" status="no" details="" size="225338" time="0" location="C:\Users\itnxw\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.13\bundles\scala-parser-combinators_2.13-1.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.3" status="release" pubdate="20190823045010" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2553" time="0" location="C:\Users\itnxw\.ivy2\cache\org.reactivestreams\reactive-streams\ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.13" conf="default, compile, runtime, master" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="2.6.3"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="jar" ext="jar" status="no" details="" size="11369" time="0" location="C:\Users\itnxw\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-protobuf-v3_2.13">
+			<revision name="2.6.3" status="release" pubdate="20200128072632" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2976" time="0" location="C:\Users\itnxw\.ivy2\cache\com.typesafe.akka\akka-protobuf-v3_2.13\ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.3/akka-protobuf-v3_2.13-2.6.3.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.13" conf="default, compile, runtime, master" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="2.6.3"/>
+				<artifacts>
+					<artifact name="akka-protobuf-v3_2.13" type="jar" ext="jar" status="no" details="" size="1668690" time="0" location="C:\Users\itnxw\.ivy2\cache\com.typesafe.akka\akka-protobuf-v3_2.13\jars\akka-protobuf-v3_2.13-2.6.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.3/akka-protobuf-v3_2.13-2.6.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="3.10.0" status="release" pubdate="20190918205539" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="3-Clause BSD License" url="https://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="5829" time="0" location="C:\Users\itnxw\.ivy2\cache\com.google.protobuf\protobuf-java\ivy-3.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-protobuf-v3_2.13" conf="compile, runtime" rev="3.10.0" rev-constraint-default="3.10.0" rev-constraint-dynamic="3.10.0" callerrev="2.6.3"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="bundle" ext="jar" status="no" details="" size="1664677" time="0" location="C:\Users\itnxw\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-3.10.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-testkit_2.13">
+			<revision name="2.6.3" status="release" pubdate="20200128122941" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="5">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3993" time="0" location="C:\Users\itnxw\.ivy2\cache\com.typesafe.akka\akka-testkit_2.13\ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.3/akka-testkit_2.13-2.6.3.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-testkit_2.13" conf="default, compile, runtime, master" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="2.6.3"/>
+				<caller organisation="com.lightbend.training" name="exercises_2.13" conf="compile, runtime" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.0.0"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="akka-testkit_2.13" type="jar" ext="jar" status="no" details="" size="260214" time="0" location="C:\Users\itnxw\.ivy2\cache\com.typesafe.akka\akka-testkit_2.13\jars\akka-testkit_2.13-2.6.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.13/2.6.3/akka-testkit_2.13-2.6.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hdrhistogram" name="HdrHistogram">
+			<revision name="2.1.12" status="release" pubdate="20191210122259" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hdrhistogram.github.io/HdrHistogram/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Public Domain, per Creative Commons CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<license name="BSD-2-Clause" url="https://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="4933" time="0" location="C:\Users\itnxw\.ivy2\cache\org.hdrhistogram\HdrHistogram\ivy-2.1.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.pom"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-prometheus" conf="default, compile, runtime, master" rev="2.1.12" rev-constraint-default="2.1.12" rev-constraint-dynamic="2.1.12" callerrev="2.13.2"/>
+				<artifacts>
+					<artifact name="HdrHistogram" type="bundle" ext="jar" status="no" details="" size="173763" time="0" location="C:\Users\itnxw\.ivy2\cache\org.hdrhistogram\HdrHistogram\bundles\HdrHistogram-2.1.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.13">
+			<revision name="2.6.3" status="release" pubdate="20200128122747" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="2">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3400" time="0" location="C:\Users\itnxw\.ivy2\cache\com.typesafe.akka\akka-actor_2.13\ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.3/akka-actor_2.13-2.6.3.pom"/>
+				<caller organisation="com.lightbend.training" name="exercises_2.13" conf="compile, runtime" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.0.0"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.0.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.13" conf="default, compile, runtime, master" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="2.6.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.13" conf="default, compile, runtime, master" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="2.6.3"/>
+				<artifacts>
+					<artifact name="akka-actor_2.13" type="jar" ext="jar" status="no" details="" size="3583504" time="0" location="C:\Users\itnxw\.ivy2\cache\com.typesafe.akka\akka-actor_2.13\jars\akka-actor_2.13-2.6.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.3/akka-actor_2.13-2.6.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.13">
+			<revision name="0.9.0" status="release" pubdate="20190608125219" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3067" time="0" location="C:\Users\itnxw\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.13\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.13" conf="default, compile, runtime, master" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="2.6.3"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.13" type="jar" ext="jar" status="no" details="" size="640411" time="0" location="C:\Users\itnxw\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.13\jars\scala-java8-compat_2.13-0.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.4.0" status="release" pubdate="20191012072341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3176" time="0" location="C:\Users\itnxw\.ivy2\cache\com.typesafe\config\ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.13" conf="default, compile, runtime, master" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="2.6.3"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-common" conf="compile, runtime" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="2.13.2"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.13" conf="compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="0.4.1"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="294174" time="0" location="C:\Users\itnxw\.ivy2\cache\com.typesafe\config\bundles\config-1.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.3.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.4.0"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-common" conf="compile, runtime" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="2.13.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.13.1" status="release" pubdate="20190918085936" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.1/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2691" time="0" location="C:\Users\itnxw\.ivy2\cache\org.scala-lang\scala-library\ivy-2.13.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream-testkit_2.13" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.6.3"/>
+				<caller organisation="com.lightbend.training" name="exercises_2.13" conf="compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="1.0.0"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-akka_2.13" conf="compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.2"/>
+				<caller organisation="com.typesafe.akka" name="akka-testkit_2.13" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.6.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.13" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.6.3"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.13" conf="compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="0.9.0"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-akka-stream_2.13" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.2"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.13" conf="compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="0.4.1"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-core_2.13" conf="compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.2"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.13" conf="compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="1.1.2"/>
+				<caller organisation="com.lightbend.training" name="common_2.13" conf="compile" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="1.0.0"/>
+				<caller organisation="com.lightbend.cinnamon" name="cinnamon-scala_2.13" conf="compile, runtime" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.13.2"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.13" conf="default, compile, runtime, master" rev="2.13.1" rev-constraint-default="2.13.1" rev-constraint-dynamic="2.13.1" callerrev="2.6.3"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5721063" time="0" location="C:\Users\itnxw\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.13.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

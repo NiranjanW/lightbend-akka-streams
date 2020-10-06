@@ -1,0 +1,4 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mFactoryTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32morderCars[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return the requested quantity of cars *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  A timeout occurred waiting for a future to complete. Queried 325 times, sleeping 15 milliseconds between each query. (FactoryTest.scala:18)[0m[0m
